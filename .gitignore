@@ -1,0 +1,26 @@
+# Environment variables
+.env
+
+# Virtual environment
+env/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Bot files (не нужны для GitHub Pages)
+bot.py
+server.py
+requirements.txt
+DEPLOY.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
