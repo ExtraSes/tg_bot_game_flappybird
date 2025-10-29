@@ -2,8 +2,9 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Игра Flappy Bird 🐦</title>
+    <title>Игра Flappy Bird</title>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <style>
         * {
@@ -14,7 +15,7 @@
         }
 
         body {
-            font-family: Arial, sans-serif;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', Arial, 'Helvetica Neue', sans-serif;
             background: linear-gradient(180deg, #87CEEB 0%, #98D8C8 100%);
             display: flex;
             justify-content: center;
@@ -134,18 +135,18 @@
         <div id="score">0</div>
         
         <div id="startScreen">
-            <h1>🐦 Игра Flappy Bird</h1>
+            <h1>Игра Flappy Bird</h1>
             <p>Управление:</p>
-            <p>• Нажмите или кликните, чтобы взлететь</p>
-            <p>• Избегайте труб!</p>
-            <p>• Наберите как можно больше очков</p>
-            <button id="startButton">🎮 Начать игру</button>
+            <p>- Нажмите или кликните, чтобы взлететь</p>
+            <p>- Избегайте труб</p>
+            <p>- Наберите как можно больше очков</p>
+            <button id="startButton">Начать игру</button>
         </div>
 
         <div id="gameOver">
-            <h2>🎮 Игра окончена!</h2>
+            <h2>Игра окончена</h2>
             <div id="finalScore">Ваш счёт: 0</div>
-            <button id="restartButton">🔄 Играть снова</button>
+            <button id="restartButton">Играть снова</button>
         </div>
     </div>
 
